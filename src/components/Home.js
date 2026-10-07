@@ -20,7 +20,7 @@ const PRODUCT_FALLBACK =
 /* =========================================================
    SEO / GEO
 ========================================================= */
-
+ 
 const SITE_URL = "https://jkscaffoldings.com";
 const SERVICE_AREAS_TEXT =
   "Vijayawada and surrounding areas, Guntur, Amaravati, Machilipatnam, Andhra Pradesh";
