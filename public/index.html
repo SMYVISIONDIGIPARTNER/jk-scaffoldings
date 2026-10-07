@@ -1,43 +1,444 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- =========================================================
+         BASIC SETTINGS
+    ========================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#080808" />
+
+    <title>
+      JK Scaffolding | Scaffolding Services in Vijayawada & Surrounding Areas
+    </title>
+
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="JK Scaffolding provides scaffolding products and construction support solutions in Vijayawada, Kanuru, Poranki, Penamaluru, Ramavarappadu, Gannavaram, Gollapudi, Ibrahimpatnam, Tadepalli, Mangalagiri, Amaravati, Guntur, Machilipatnam and Andhra Pradesh."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta
+      name="keywords"
+      content="JK Scaffolding, scaffolding Vijayawada, scaffolding services Vijayawada, scaffolding suppliers Vijayawada, scaffolding Kanuru, scaffolding Poranki, scaffolding Penamaluru, scaffolding Ramavarappadu, scaffolding Gannavaram, scaffolding Gollapudi, scaffolding Ibrahimpatnam, scaffolding Tadepalli, scaffolding Mangalagiri, scaffolding Amaravati, scaffolding Guntur, scaffolding Machilipatnam, scaffolding Andhra Pradesh, cup lock scaffolding Vijayawada, H frame scaffolding, adjustable props Vijayawada, shuttering scaffolding, construction scaffolding"
+    />
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <meta
+      name="googlebot"
+      content="index, follow, max-image-preview:large, max-snippet:-1"
+    />
+
+    <meta name="bingbot" content="index, follow" />
+
+    <!-- =========================================================
+         JK SCAFFOLDING LOGO / FAVICON
+         public/logo.png
+    ========================================================== -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="%PUBLIC_URL%/logo.png"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="%PUBLIC_URL%/logo.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="%PUBLIC_URL%/logo.png"
+    />
+
+    <link
+      rel="manifest"
+      href="%PUBLIC_URL%/manifest.json"
+    />
+
+    <!-- =========================================================
+         CANONICAL
+    ========================================================== -->
+    <link
+      rel="canonical"
+      href="https://jkscaffoldings.com/"
+    />
+
+    <!-- =========================================================
+         GEO / LOCAL SEO
+    ========================================================== -->
+    <meta
+      name="geo.region"
+      content="IN-AP"
+    />
+
+    <meta
+      name="geo.placename"
+      content="Vijayawada, Andhra Pradesh"
+    />
+
+    <!-- =========================================================
+         OPEN GRAPH
+    ========================================================== -->
+    <meta
+      property="og:title"
+      content="JK Scaffolding | Scaffolding Services in Vijayawada & Surrounding Areas"
+    />
+
+    <meta
+      property="og:description"
+      content="Scaffolding products and construction support solutions across Vijayawada, Kanuru, Poranki, Penamaluru, Ramavarappadu, Gannavaram, Gollapudi, Ibrahimpatnam, Tadepalli, Mangalagiri, Amaravati, Guntur, Machilipatnam and Andhra Pradesh."
+    />
+
+    <meta
+      property="og:type"
+      content="website"
+    />
+
+    <meta
+      property="og:url"
+      content="https://jkscaffoldings.com/"
+    />
+
+    <meta
+      property="og:site_name"
+      content="JK Scaffolding"
+    />
+
+    <meta
+      property="og:locale"
+      content="en_IN"
+    />
+
+    <meta
+      property="og:image"
+      content="https://jkscaffoldings.com/logo.png"
+    />
+
+    <meta
+      property="og:image:alt"
+      content="JK Scaffolding Logo"
+    />
+
+    <!-- =========================================================
+         TWITTER / SOCIAL
+    ========================================================== -->
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+
+    <meta
+      name="twitter:title"
+      content="JK Scaffolding | Scaffolding Services in Vijayawada"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Scaffolding products and construction support solutions across Vijayawada and surrounding areas in Andhra Pradesh."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://jkscaffoldings.com/logo.png"
+    />
+
+    <meta
+      name="twitter:image:alt"
+      content="JK Scaffolding Logo"
+    />
+
+    <!-- =========================================================
+         LOCAL BUSINESS SCHEMA
+         SEO + GEO + AEO
+    ========================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://jkscaffoldings.com/#organization",
+
+        "name": "JK Scaffolding",
+
+        "url": "https://jkscaffoldings.com/",
+
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://jkscaffoldings.com/logo.png"
+        },
+
+        "image": "https://jkscaffoldings.com/logo.png",
+
+        "telephone": "+916303819983",
+
+        "description": "JK Scaffolding provides scaffolding products, formwork support and construction scaffolding solutions in Vijayawada and surrounding areas of Andhra Pradesh.",
+
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Vijayawada",
+          "addressRegion": "Andhra Pradesh",
+          "addressCountry": "IN"
+        },
+
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Vijayawada"
+          },
+          {
+            "@type": "Place",
+            "name": "MG Road, Vijayawada"
+          },
+          {
+            "@type": "Place",
+            "name": "Eluru Road, Vijayawada"
+          },
+          {
+            "@type": "Place",
+            "name": "Auto Nagar, Vijayawada"
+          },
+          {
+            "@type": "Place",
+            "name": "Patamata, Vijayawada"
+          },
+          {
+            "@type": "Place",
+            "name": "Kanuru"
+          },
+          {
+            "@type": "Place",
+            "name": "Poranki"
+          },
+          {
+            "@type": "Place",
+            "name": "Penamaluru"
+          },
+          {
+            "@type": "Place",
+            "name": "Ramavarappadu"
+          },
+          {
+            "@type": "Place",
+            "name": "Kankipadu"
+          },
+          {
+            "@type": "Place",
+            "name": "Yanamalakuduru"
+          },
+          {
+            "@type": "Place",
+            "name": "Prasadampadu"
+          },
+          {
+            "@type": "Place",
+            "name": "Enikepadu"
+          },
+          {
+            "@type": "Place",
+            "name": "Gannavaram"
+          },
+          {
+            "@type": "Place",
+            "name": "Nunna"
+          },
+          {
+            "@type": "Place",
+            "name": "Gollapudi"
+          },
+          {
+            "@type": "Place",
+            "name": "Ibrahimpatnam"
+          },
+          {
+            "@type": "Place",
+            "name": "Tadepalli"
+          },
+          {
+            "@type": "Place",
+            "name": "Vaddeswaram"
+          },
+          {
+            "@type": "City",
+            "name": "Mangalagiri"
+          },
+          {
+            "@type": "City",
+            "name": "Amaravati"
+          },
+          {
+            "@type": "City",
+            "name": "Guntur"
+          },
+          {
+            "@type": "City",
+            "name": "Machilipatnam"
+          },
+          {
+            "@type": "State",
+            "name": "Andhra Pradesh"
+          }
+        ],
+
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+916303819983",
+          "contactType": "customer service",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Telugu"
+          ]
+        }
+      }
+    </script>
+
+    <!-- =========================================================
+         WEBSITE SCHEMA
+
+         IMPORTANT:
+         creator explicitly connects this website with
+         SMYVISION TECHNOLOGIES.
+    ========================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+
+        "@type": "WebSite",
+
+        "@id": "https://jkscaffoldings.com/#website",
+
+        "url": "https://jkscaffoldings.com/",
+
+        "name": "JK Scaffolding",
+
+        "description": "Official website of JK Scaffolding for scaffolding products and construction support solutions in Vijayawada and surrounding areas.",
+
+        "publisher": {
+          "@id": "https://jkscaffoldings.com/#organization"
+        },
+
+        "creator": {
+          "@id": "https://smyvisiontechnologies.com/#organization"
+        },
+
+        "inLanguage": "en-IN"
+      }
+    </script>
+
+    <!-- =========================================================
+         WEB PAGE SCHEMA
+    ========================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+
+        "@type": "WebPage",
+
+        "@id": "https://jkscaffoldings.com/#webpage",
+
+        "url": "https://jkscaffoldings.com/",
+
+        "name": "JK Scaffolding | Scaffolding Services in Vijayawada",
+
+        "isPartOf": {
+          "@id": "https://jkscaffoldings.com/#website"
+        },
+
+        "about": {
+          "@id": "https://jkscaffoldings.com/#organization"
+        },
+
+        "creator": {
+          "@id": "https://smyvisiontechnologies.com/#organization"
+        },
+
+        "inLanguage": "en-IN"
+      }
+    </script>
+
+    <!-- =========================================================
+         SMYVISION TECHNOLOGIES
+
+         WEBSITE DEVELOPER / CREATOR ENTITY
+    ========================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+
+        "@type": "Organization",
+
+        "@id": "https://smyvisiontechnologies.com/#organization",
+
+        "name": "SMYVISION TECHNOLOGIES",
+
+        "url": "https://smyvisiontechnologies.com/",
+
+        "description": "SMYVISION TECHNOLOGIES is a website development and digital solutions company. The JK Scaffolding website was designed and developed by SMYVISION TECHNOLOGIES.",
+
+        "knowsAbout": [
+          "Website Development",
+          "Web Design",
+          "Digital Solutions",
+          "Business Websites"
+        ]
+      }
+    </script>
+
+    <!-- =========================================================
+         AEO / ENTITY RELATIONSHIP
+
+         Gives crawlers another explicit machine-readable
+         relationship between the website and developer.
+    ========================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+
+        "@type": "CreativeWork",
+
+        "@id": "https://jkscaffoldings.com/#site-development",
+
+        "name": "JK Scaffolding Website",
+
+        "url": "https://jkscaffoldings.com/",
+
+        "creator": {
+          "@type": "Organization",
+          "@id": "https://smyvisiontechnologies.com/#organization",
+          "name": "SMYVISION TECHNOLOGIES",
+          "url": "https://smyvisiontechnologies.com/"
+        },
+
+        "about": {
+          "@id": "https://jkscaffoldings.com/#organization"
+        },
+
+        "description": "The official JK Scaffolding website was designed and developed by SMYVISION TECHNOLOGIES."
+      }
+    </script>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- =========================================================
+         NOSCRIPT CONTENT
+    ========================================================== -->
+    <noscript>
+      JK Scaffolding provides scaffolding products and construction
+      support solutions in Vijayawada and surrounding areas including
+      Kanuru, Poranki, Penamaluru, Ramavarappadu, Gannavaram,
+      Gollapudi, Ibrahimpatnam, Tadepalli, Mangalagiri, Amaravati,
+      Guntur and Machilipatnam, Andhra Pradesh.
+
+      Please enable JavaScript to use this website.
+    </noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
