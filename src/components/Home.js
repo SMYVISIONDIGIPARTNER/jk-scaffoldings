@@ -130,7 +130,7 @@ const scaffoldingServices = [
   {
     category: "Industrial",
     name: "Cup-Lock Scaffolding",
-    image: "/images/ct.png",
+    image: "/images/ct1.png",
     description:
       "Industry-grade cup-lock system with vertical standards and horizontal ledgers offering sturdy support for workers and materials at multiple levels.",
   },
