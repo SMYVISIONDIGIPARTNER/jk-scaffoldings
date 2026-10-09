@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const PHONE_DISPLAY = "+91 63038 19983";
 const PHONE_LINK = "+916303819983";
 const WHATSAPP_NUMBER = "916303819983";
-const EMAIL = "k76839603@gmail.com";
+const EMAIL = "jkscaffoldings1433@gmail.com";
 
 const LOCATION = "Vijayawada and surrounding areas, Guntur, Amaravati, Machilipatnam, Andhra Pradesh";
 

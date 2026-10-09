@@ -1415,8 +1415,8 @@ function Footer() {
                     Email Us
                   </span>
 
-                  <a href="mailto:k76839603@gmail.com">
-                    k76839603@gmail.com
+                  <a href="mailto:jkscaffoldings1433@gmail.com">
+                    jkscaffoldings1433@gmail.com
                   </a>
 
                 </div>

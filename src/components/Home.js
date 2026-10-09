@@ -130,7 +130,7 @@ const scaffoldingServices = [
   {
     category: "Industrial",
     name: "Cup-Lock Scaffolding",
-    image: "/images/cuplock-scaffolding.webp",
+    image: "/images/ct.png",
     description:
       "Industry-grade cup-lock system with vertical standards and horizontal ledgers offering sturdy support for workers and materials at multiple levels.",
   },
@@ -3435,7 +3435,7 @@ function Home() {
               >
 
                 <FallbackImage
-                  src="/images/cuplock-scaffolding.webp"
+                  src="/images/ct.png"
                   fallback={ABOUT_FALLBACK}
                   alt="JK Scaffoldings construction support"
                 />
