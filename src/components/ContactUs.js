@@ -9,8 +9,7 @@ import { Link } from "react-router-dom";
 const PHONE_DISPLAY = "+91 63038 19983";
 const PHONE_LINK = "+916303819983";
 
-const PHONE_DISPLAY_2 = "+91 79953 19983";
-const PHONE_LINK_2 = "+917995319983";
+
 
 const WHATSAPP_NUMBER = "916303819983";
 const EMAIL = "jkscaffoldings1433@gmail.com";
@@ -2974,9 +2973,6 @@ ${formData.message || "Please contact me with more details."}
                       </a>
                       <br />
 
-                      <a href={`tel:${PHONE_LINK_2}`}>
-                        {PHONE_DISPLAY_2}
-                      </a>
                     </ContactDetail>
 
                     <ContactDetail
@@ -3332,7 +3328,6 @@ ${formData.message || "Please contact me with more details."}
                     <strong>
                       {PHONE_DISPLAY}
                       <br />
-  {PHONE_DISPLAY_2}
                     </strong>
 
                   </div>
